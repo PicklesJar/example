@@ -9,10 +9,11 @@
 
 	<groupId>picklesjar</groupId>
 	<artifactId>picklesjar.example-jvm</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${project.version}</version>
 	<packaging>pom</packaging>
 
 	<properties>
+		<project.version>0.1</project.version>
 		<test.cucumber.version>1.2.2</test.cucumber.version>
 	</properties>
 
@@ -152,7 +153,7 @@
 			<dependency>
 				<groupId>picklesjar</groupId>
 				<artifactId>pickledbeans.ut.jp</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
 			
