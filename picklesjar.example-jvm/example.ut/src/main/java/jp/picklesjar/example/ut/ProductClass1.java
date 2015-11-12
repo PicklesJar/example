@@ -1,5 +1,7 @@
 package jp.picklesjar.example.ut;
 
+import picklesjar.pickles.ut.recipes.variable.AccessorDataBridgeVariable;
+
 /**
  * 
  * 
@@ -8,6 +10,31 @@ package jp.picklesjar.example.ut;
  *
  */
 public class ProductClass1 {
+	
+	@AccessorDataBridgeVariable
+	private boolean flag = false;
+	
+	/**
+	 * 
+	 * 
+	 * 
+	 * @param flag
+	 */
+	public void setFlag( boolean flag ) {
+	
+		this.flag = flag;
+	}
+	
+	/**
+	 * 
+	 * 
+	 * 
+	 * @param flag
+	 */
+	public boolean getFlag( boolean flag ) {
+	
+		return !flag;
+	}
 	
 	/**
 	 * 

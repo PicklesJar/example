@@ -6,9 +6,9 @@
 Feature: テストサンプル用シナリオ１
 
 Background:
-	Given "jp.picklesjar.example.ut.ProductClass1"インスタンス生成
-		And "getMessage"メソッドをテスト対象に指定
+	Given "jp.picklesjar.example.ut.ProductClass1"クラスのインスタンス生成
+		And "getMessage()"を実行対象に指定
 
 Scenario: メッセージ取得テスト
-	When メソッド実行（パラメータ：なし）
-	Then 戻り値："こんにちは"
+	When 実行対象の処理を実行（パラメータ：なし）
+	Then 期待値（"こんにちは"）と合致するかを確認する
