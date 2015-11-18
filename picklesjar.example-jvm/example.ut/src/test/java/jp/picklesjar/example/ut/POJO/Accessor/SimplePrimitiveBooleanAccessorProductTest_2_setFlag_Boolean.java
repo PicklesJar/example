@@ -1,4 +1,4 @@
-package jp.picklesjar.example.ut;
+package jp.picklesjar.example.ut.POJO.Accessor;
 
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
@@ -17,7 +17,7 @@ import cucumber.api.junit.Cucumber;
 	glue = { "picklesjar.pickledbeans.ut.jp" },
 	tags = {
 		"@ACCESSOR_SETTER", "@DETAIL", "~@ACCESSOR_GETTER_AND_SETTER_PAIR" } )
-public class ProductClass1Test_3_setFlag_boolean
+public class SimplePrimitiveBooleanAccessorProductTest_2_setFlag_Boolean
 	extends MethodTargetingOnSingleThreadRoutine {
 	
 	@BeforeClass
@@ -29,7 +29,7 @@ public class ProductClass1Test_3_setFlag_boolean
 		} catch( Exception exp ) {}
 		
 		MethodTargetingOnSingleThreadRoutine.setUp(
-			ProductClass1.class, method, StereotypeDesign.ACCESSOR_SETTER );
+			SimplePrimitiveBooleanAccessorProduct.class, method, StereotypeDesign.ACCESSOR_SETTER );
 	}
 	
 }

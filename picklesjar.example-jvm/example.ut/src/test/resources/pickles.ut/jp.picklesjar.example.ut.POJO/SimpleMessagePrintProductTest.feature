@@ -6,7 +6,7 @@
 Feature: テストサンプル用シナリオ１
 
 Background:
-	Given "jp.picklesjar.example.ut.ProductClass1"クラスのインスタンス生成
+	Given "jp.picklesjar.example.ut.POJO.SimpleMessagePrintProduct"クラスのインスタンス生成
 		And "getMessage()"を実行対象に指定
 
 Scenario: メッセージ取得テスト

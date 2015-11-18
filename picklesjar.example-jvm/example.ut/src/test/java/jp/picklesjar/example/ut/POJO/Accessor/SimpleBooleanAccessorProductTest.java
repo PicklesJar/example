@@ -1,4 +1,4 @@
-package jp.picklesjar.example.ut;
+package jp.picklesjar.example.ut.POJO.Accessor;
 
 import picklesjar.pickles.ut.prepare.TestTargetMethodMapping;
 import picklesjar.pickles.ut.prepare.UnitTestWithCucumber;
@@ -6,12 +6,9 @@ import picklesjar.pickles.ut.prepare.design.StereotypeDesign;
 
 @UnitTestWithCucumber( "picklesjar.pickledbeans.ut.jp" )
 @TestTargetMethodMapping(
-	query = "getMessage()",
-	features = { "src/test/resources/pickles.ut/jp.picklesjar.example.ut/ProductClass1Test.feature" } )
-@TestTargetMethodMapping(
 	query = "getFlag()",
 	stereotype = StereotypeDesign.ACCESSOR_GETTER )
 @TestTargetMethodMapping(
-	query = "setFlag( boolean )",
+	query = "setFlag( Boolean )",
 	stereotype = StereotypeDesign.ACCESSOR_SETTER )
-public class ProductClass1Test {}
+public class SimpleBooleanAccessorProductTest {}

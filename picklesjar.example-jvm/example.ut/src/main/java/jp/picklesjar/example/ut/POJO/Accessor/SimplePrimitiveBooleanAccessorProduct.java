@@ -1,4 +1,4 @@
-package jp.picklesjar.example.ut;
+package jp.picklesjar.example.ut.POJO.Accessor;
 
 import picklesjar.pickles.ut.recipes.variable.AccessorDataBridgeVariable;
 
@@ -9,7 +9,7 @@ import picklesjar.pickles.ut.recipes.variable.AccessorDataBridgeVariable;
  * @author PicklesCooker
  *
  */
-public class ProductClass1 {
+public class SimplePrimitiveBooleanAccessorProduct {
 	
 	@AccessorDataBridgeVariable(
 		getter = "getFlag()", setter = "setFlag(boolean)" )
@@ -35,27 +35,6 @@ public class ProductClass1 {
 	public boolean getFlag() {
 	
 		return flag;
-	}
-	
-	/**
-	 * 
-	 * 
-	 * 
-	 * @return
-	 */
-	public String getMessage() {
-	
-		return "こんにちは";
-	}
-	
-	/**
-	 * 
-	 * 
-	 * 
-	 */
-	public void printMessage() {
-	
-		System.out.println( getMessage() );
 	}
 	
 }

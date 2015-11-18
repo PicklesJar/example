@@ -1,4 +1,4 @@
-package jp.picklesjar.example.ut;
+package jp.picklesjar.example.ut.POJO;
 
 import org.junit.runner.RunWith;
 
@@ -9,8 +9,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith( Cucumber.class )
 @CucumberOptions(
 	features = {
-		"src/test/resources/pickles.ut/jp.picklesjar.example.ut/ProductClass1Test.feature"
+		"src/test/resources/pickles.ut/jp.picklesjar.example.ut.POJO/SimpleMessagePrintProductTest.feature"
 	},
 	glue = { "picklesjar.pickledbeans.ut.jp" } )
-public class ProductClass1Test_1_getMessage
+public class SimpleMessagePrintProductTest_1_getMessage
 	extends SingleThreadConfigRoutine {}
