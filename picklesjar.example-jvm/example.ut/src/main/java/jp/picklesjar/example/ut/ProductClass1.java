@@ -11,7 +11,8 @@ import picklesjar.pickles.ut.recipes.variable.AccessorDataBridgeVariable;
  */
 public class ProductClass1 {
 	
-	@AccessorDataBridgeVariable
+	@AccessorDataBridgeVariable(
+		getter = "getFlag()", setter = "setFlag(boolean)" )
 	private boolean flag = false;
 	
 	/**
@@ -31,9 +32,9 @@ public class ProductClass1 {
 	 * 
 	 * @param flag
 	 */
-	public boolean getFlag( boolean flag ) {
+	public boolean getFlag() {
 	
-		return !flag;
+		return flag;
 	}
 	
 	/**
