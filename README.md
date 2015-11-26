@@ -1,3 +1,3 @@
 # example
 
-Please reference https://github.com/PicklesJar/pickles/wiki
+Please reference https://github.com/PicklesJar/pickles
