@@ -1,4 +1,4 @@
-package jp.picklesjar.example.ut;
+package jp.picklesjar.example.ut.POJO;
 
 /**
  * 
@@ -7,7 +7,7 @@ package jp.picklesjar.example.ut;
  * @author PicklesCooker
  *
  */
-public class ProductClass1 {
+public class SimpleMessagePrintProduct {
 	
 	/**
 	 * 
