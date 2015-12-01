@@ -1,8 +1,8 @@
 package jp.picklesjar.example.ut.POJO.Accessor;
 
-import picklesjar.pickles.ut.prepare.TestTargetMethodMapping;
-import picklesjar.pickles.ut.prepare.UnitTestWithCucumber;
-import picklesjar.pickles.ut.prepare.design.StereotypeDesign;
+import picklesjar.pickle.ut.prepare.TestTargetMethodMapping;
+import picklesjar.pickle.ut.prepare.UnitTestWithCucumber;
+import picklesjar.pickle.ut.prepare.design.StereotypeDesign;
 
 @UnitTestWithCucumber( "picklesjar.pickledbeans.ut.jp" )
 @TestTargetMethodMapping(

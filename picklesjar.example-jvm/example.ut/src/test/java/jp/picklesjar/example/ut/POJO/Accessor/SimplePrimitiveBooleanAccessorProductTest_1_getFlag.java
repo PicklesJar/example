@@ -3,9 +3,9 @@ package jp.picklesjar.example.ut.POJO.Accessor;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
-import picklesjar.pickles.ut.core.util.MethodQuery;
-import picklesjar.pickles.ut.prepare.design.StereotypeDesign;
-import picklesjar.pickles.ut.runtime.routine.impl.MethodTargetingOnSingleThreadRoutine;
+import picklesjar.pickle.ut.core.util.MethodQuery;
+import picklesjar.pickle.ut.prepare.design.StereotypeDesign;
+import picklesjar.pickle.ut.runtime.routine.impl.MethodTargetingOnSingleThreadRoutine;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
