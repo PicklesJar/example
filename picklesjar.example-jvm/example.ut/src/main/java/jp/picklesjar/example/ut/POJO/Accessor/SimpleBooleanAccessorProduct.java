@@ -1,6 +1,6 @@
 package jp.picklesjar.example.ut.POJO.Accessor;
 
-import picklesjar.pickles.ut.recipes.variable.AccessorDataBridgeVariable;
+import picklesjar.picklerecipes.ut.variable.AccessorDataBridgeVariable;
 
 /**
  * 
