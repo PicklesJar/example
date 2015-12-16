@@ -9,7 +9,7 @@
 
 	<groupId>picklesjar</groupId>
 	<artifactId>picklesjar.example-jvm</artifactId>
-	<version>${project.version}</version>
+	<version>0.1.1</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -61,21 +61,6 @@
 				</configuration>
 				
 				<executions>
-				
-					<execution>
-						<id>gen-sources</id>
-						<phase>generate-sources</phase>
-						<goals>
-							<goal>compile</goal>
-						</goals>
-						<configuration>
-							<fork>false</fork>
-							<generatedSourcesDirectory>
-								${project.basedir}/src/gen/main/java
-							</generatedSourcesDirectory>
-							<proc>only</proc>
-						</configuration>
-					</execution>
 					
 					<execution>
 						<id>gen-test-sources</id>
@@ -153,6 +138,12 @@
 			<dependency>
 				<groupId>picklesjar</groupId>
 				<artifactId>pickledbeans.ut.jp</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>picklesjar</groupId>
+				<artifactId>brine.ut</artifactId>
 				<version>${project.version}</version>
 				<type>jar</type>
 			</dependency>
