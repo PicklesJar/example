@@ -40,6 +40,10 @@
 			<groupId>picklesjar</groupId>
 			<artifactId>pickledbeans.ut.jp</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>picklesjar</groupId>
+			<artifactId>brine.base</artifactId>
+		</dependency>
 		
 	</dependencies>
 
